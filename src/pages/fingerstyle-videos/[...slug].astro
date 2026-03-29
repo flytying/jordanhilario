@@ -29,6 +29,12 @@ const relatedVideos = allVideos
   .slice(0, 4)
   .map((v) => v.video);
 
+const hasTab = !!tabUrl;
+const displayTitle = hasTab ? `${title} + TABS` : title;
+const seoDescription = hasTab
+  ? `${description} Guitar tablature available — learn to play this fingerstyle arrangement note for note.`
+  : description;
+
 const thumbnailUrl = getYouTubeThumbnail(youtubeId, 'maxres');
 const watchUrl = getYouTubeWatchUrl(youtubeId);
 const embedUrl = getYouTubeEmbedUrl(youtubeId);
@@ -37,8 +43,8 @@ const canonicalUrl = `https://jordanhilario.com/fingerstyle-videos/${video.id}`;
 ---
 
 <BaseLayout
-  title={`${title} | Jordan Hilario`}
-  description={description}
+  title={`${displayTitle} | Jordan Hilario`}
+  description={seoDescription}
   ogImage={thumbnailUrl}
   canonicalUrl={canonicalUrl}
   type="video.other"
@@ -55,7 +61,7 @@ const canonicalUrl = `https://jordanhilario.com/fingerstyle-videos/${video.id}`;
     <div class="container">
       <div class="video-info-grid">
         <div class="video-info-main">
-          <h1>{title}</h1>
+          <h1>{displayTitle}</h1>
           <div class="video-meta">
             <span class="video-artist">{artist}</span>
             <span class="video-date">{formattedDate}</span>
@@ -128,8 +134,8 @@ const canonicalUrl = `https://jordanhilario.com/fingerstyle-videos/${video.id}`;
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "VideoObject",
-      "name": title,
-      "description": description,
+      "name": displayTitle,
+      "description": seoDescription,
       "thumbnailUrl": thumbnailUrl,
       "uploadDate": publishDate.toISOString().split('T')[0],
       ...(duration && { "duration": duration }),
