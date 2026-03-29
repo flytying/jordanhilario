@@ -14,7 +14,7 @@ const { slug, title, artist, youtubeId, tags = [], tabUrl } = Astro.props;
 const thumbnail = getYouTubeThumbnail(youtubeId, 'hq');
 ---
 
-<a href={`/videos/${slug}`} class="video-card">
+<a href={`/fingerstyle-videos/${slug}`} class="video-card">
   <div class="video-card-thumb">
     <img
       src={thumbnail}
