@@ -27,6 +27,9 @@ const { title, description, ogImage, canonicalUrl, type } = Astro.props;
     />
     <slot name="head" />
 
+    <!-- Google AdSense -->
+    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3392449098044156" crossorigin="anonymous"></script>
+
     <!-- Google Analytics -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XF3H4BXFKL"></script>
     <script is:inline>
