@@ -52,7 +52,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <textarea id="message" name="message" rows="6" required></textarea>
           </div>
 
-          <button type="submit" class="btn btn-primary">Send Message</button>
+          <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
         </form>
 
         <aside class="contact-sidebar">
@@ -215,6 +215,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   .quick-links a:hover {
     color: var(--color-text);
+  }
+
+  .submit-btn {
+    align-self: flex-start;
   }
 
   @media (max-width: 768px) {
