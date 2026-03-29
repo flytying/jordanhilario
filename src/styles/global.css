@@ -169,4 +169,9 @@ p {
   :root {
     --section-padding: 3rem;
   }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
 }

@@ -146,7 +146,7 @@ const navLinks = [
   }
 
   .mobile-nav {
-    position: absolute;
+    position: fixed;
     top: var(--header-height);
     left: 0;
     right: 0;
@@ -156,6 +156,7 @@ const navLinks = [
     flex-direction: column;
     gap: 0.5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 99;
   }
 
   .mobile-nav-link {
