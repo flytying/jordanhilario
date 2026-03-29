@@ -18,10 +18,14 @@ const { youtubeId, title } = Astro.props;
     width: 100%;
     aspect-ratio: 16 / 9;
     background-color: var(--color-bg-dark);
+    contain: layout;
   }
 
   .video-player :global(lite-youtube) {
     width: 100%;
     max-width: 100%;
+    aspect-ratio: 16 / 9;
+    display: block;
+    contain: layout size;
   }
 </style>

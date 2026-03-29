@@ -41,9 +41,8 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : new URL(ogImage, Astr
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={fullOgImage} />
 
-<!-- Preconnect for YouTube embeds -->
-<link rel="preconnect" href="https://www.youtube-nocookie.com" />
-<link rel="preconnect" href="https://img.youtube.com" />
+<!-- Preconnect for YouTube thumbnails -->
+<link rel="preconnect" href="https://img.youtube.com" crossorigin />
 
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

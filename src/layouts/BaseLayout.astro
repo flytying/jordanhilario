@@ -26,18 +26,6 @@ const { title, description, ogImage, canonicalUrl, type } = Astro.props;
       type={type}
     />
     <slot name="head" />
-
-    <!-- Google AdSense -->
-    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3392449098044156" crossorigin="anonymous"></script>
-
-    <!-- Google Analytics -->
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XF3H4BXFKL"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XF3H4BXFKL');
-    </script>
   </head>
   <body>
     <Header />
@@ -45,5 +33,17 @@ const { title, description, ogImage, canonicalUrl, type } = Astro.props;
       <slot />
     </main>
     <Footer />
+
+    <!-- Google Analytics (deferred to end of body) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XF3H4BXFKL"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XF3H4BXFKL');
+    </script>
+
+    <!-- Google AdSense (deferred to end of body) -->
+    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3392449098044156" crossorigin="anonymous"></script>
   </body>
 </html>

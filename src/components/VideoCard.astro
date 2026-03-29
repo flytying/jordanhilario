@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { slug, title, artist, youtubeId, tags = [], tabUrl } = Astro.props;
-const thumbnail = getYouTubeThumbnail(youtubeId, 'hq');
+const thumbnail = getYouTubeThumbnail(youtubeId, 'mq');
 ---
 
 <a href={`/fingerstyle-videos/${slug}`} class="video-card">
@@ -19,8 +19,8 @@ const thumbnail = getYouTubeThumbnail(youtubeId, 'hq');
     <img
       src={thumbnail}
       alt={title}
-      width="480"
-      height="360"
+      width="320"
+      height="180"
       loading="lazy"
     />
     <div class="play-icon">
