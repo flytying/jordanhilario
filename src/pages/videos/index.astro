@@ -1,0 +1,173 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import { getCollection } from 'astro:content';
+
+const allVideos = await getCollection('videos');
+const sortedVideos = allVideos.sort(
+  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
+);
+
+const allTags = [...new Set(sortedVideos.flatMap((v) => v.data.tags))].sort();
+---
+
+<BaseLayout
+  title="Fingerstyle Guitar Videos | Jordan Hilario"
+  description="Watch fingerstyle guitar covers of popular songs, jazz standards, and classical pieces. Acoustic guitar arrangements by Jordan Hilario with tabs available."
+>
+  <section class="page-header">
+    <div class="container">
+      <p class="page-label">Collection</p>
+      <h1>Fingerstyle Guitar Videos</h1>
+      <p class="page-description">
+        Acoustic guitar covers and arrangements — from pop and classic rock
+        to jazz standards and classical pieces.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      {allTags.length > 0 && (
+        <div class="tags-bar">
+          <button class="filter-tag active" data-tag="all">All</button>
+          {allTags.map((tag) => (
+            <button class="filter-tag" data-tag={tag}>{tag}</button>
+          ))}
+        </div>
+      )}
+
+      <div class="video-grid">
+        {sortedVideos.map((video) => (
+          <div class="video-grid-item" data-tags={video.data.tags.join(',')}>
+            <VideoCard
+              slug={video.id}
+              title={video.data.title}
+              artist={video.data.artist}
+              youtubeId={video.data.youtubeId}
+              tags={video.data.tags}
+              tabUrl={video.data.tabUrl}
+            />
+          </div>
+        ))}
+      </div>
+
+      <div class="videos-cta">
+        <p>Want to play these songs yourself?</p>
+        <a href="https://www.mymusic5.com/jordanhilariofingerstyle" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          Get Guitar Tabs
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Fingerstyle Guitar Videos",
+      "description": "Collection of fingerstyle guitar covers and arrangements by Jordan Hilario.",
+      "url": "https://jordanhilario.com/videos",
+      "author": {
+        "@type": "Person",
+        "name": "Jordan Hilario"
+      }
+    })} />
+  </Fragment>
+</BaseLayout>
+
+<script>
+  const buttons = document.querySelectorAll('.filter-tag');
+  const items = document.querySelectorAll('.video-grid-item');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const tag = btn.getAttribute('data-tag');
+
+      buttons.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      items.forEach((item) => {
+        const tags = item.getAttribute('data-tags') || '';
+        if (tag === 'all' || tags.split(',').includes(tag)) {
+          (item as HTMLElement).style.display = '';
+        } else {
+          (item as HTMLElement).style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  .page-header {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-light);
+    padding: 4rem 0 3rem;
+  }
+
+  .page-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--color-accent);
+    margin-bottom: 1rem;
+  }
+
+  .page-header h1 {
+    margin-bottom: 1rem;
+  }
+
+  .page-description {
+    font-size: 1.0625rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 550px;
+    margin-bottom: 0;
+  }
+
+  .tags-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .filter-tag {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.375rem 0.875rem;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    background: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font-body);
+  }
+
+  .filter-tag:hover {
+    border-color: var(--color-text);
+    color: var(--color-text);
+  }
+
+  .filter-tag.active {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-light);
+    border-color: var(--color-bg-dark);
+  }
+
+  .videos-cta {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .videos-cta p {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+</style>

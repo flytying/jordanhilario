@@ -1,17 +1,277 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import VideoPlayer from '../components/VideoPlayer.astro';
+import VideoCard from '../components/VideoCard.astro';
+import { getCollection } from 'astro:content';
 
+const allVideos = await getCollection('videos');
+const featuredVideos = allVideos
+  .filter((v) => v.data.featured)
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
+  .slice(0, 6);
+
+const heroVideo = featuredVideos[0];
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout
+  title="Jordan Hilario | Fingerstyle Guitar Covers & Tabs"
+  description="Fingerstyle guitar covers and arrangements by Jordan Hilario. Watch acoustic guitar covers of popular songs and get guitar tabs for each arrangement."
+>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner container">
+      <div class="hero-content">
+        <p class="hero-label">Fingerstyle Guitar</p>
+        <h1 class="hero-title">Jordan<br />Hilario</h1>
+        <p class="hero-description">
+          I arrange songs I love into solo fingerstyle guitar — bringing out the
+          melody, harmony, and bass on a single instrument. Tabs are available
+          if you want to learn them too.
+        </p>
+        <div class="hero-actions">
+          <a href="https://www.mymusic5.com/jordanhilariofingerstyle" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Get Guitar Tabs
+          </a>
+          <a href="https://www.youtube.com/@JordanHilarioFingerstyle" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            YouTube Channel
+          </a>
+        </div>
+      </div>
+      {heroVideo && (
+        <div class="hero-video">
+          <VideoPlayer youtubeId={heroVideo.data.youtubeId} title={heroVideo.data.title} />
+          <p class="hero-video-title">{heroVideo.data.title}</p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-label">
+          <h2>About</h2>
+        </div>
+        <div class="about-content">
+          <p>
+            I arrange songs that I personally love into solo fingerstyle guitar —
+            from OPM classics and 80s ballads to modern artists like Laufey and
+            The Beatles. Each piece is my take on how the song can live on a single
+            guitar, with the melody, harmony, and bass all working together.
+          </p>
+          <p>
+            Most of these arrangements come from moments where I just wanted to
+            sit down and play something meaningful. Over time, I started sharing
+            them on YouTube — and for those who want to go deeper, I make tabs
+            available so you can learn them at your own pace.
+          </p>
+          <a href="/videos" class="btn btn-outline-dark">Explore Videos &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Videos -->
+  <section class="section featured-section">
+    <div class="container">
+      <h2 class="section-title">Featured Covers</h2>
+      <div class="video-grid">
+        {featuredVideos.map((video) => (
+          <VideoCard
+            slug={video.id}
+            title={video.data.title}
+            artist={video.data.artist}
+            youtubeId={video.data.youtubeId}
+            tags={video.data.tags}
+            tabUrl={video.data.tabUrl}
+          />
+        ))}
+      </div>
+      <div class="section-cta">
+        <a href="/videos" class="btn btn-outline-dark">View All Videos &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <h2>Learn to Play<br />These Songs</h2>
+      <p>Accurate guitar tabs for every arrangement, available on MyMusic5.</p>
+      <div class="cta-actions">
+        <a href="https://www.mymusic5.com/jordanhilariofingerstyle" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          Browse Guitar Tabs
+        </a>
+        <a href="https://www.youtube.com/@JordanHilarioFingerstyle?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          Subscribe on YouTube
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- JSON-LD Structured Data -->
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Jordan Hilario",
+          "url": "https://jordanhilario.com",
+          "description": "Fingerstyle guitar covers and arrangements by Jordan Hilario."
+        },
+        {
+          "@type": "Person",
+          "name": "Jordan Hilario",
+          "url": "https://jordanhilario.com",
+          "sameAs": [
+            "https://www.youtube.com/@JordanHilarioFingerstyle",
+            "https://www.mymusic5.com/jordanhilariofingerstyle"
+          ],
+          "jobTitle": "Fingerstyle Guitarist",
+          "knowsAbout": ["Fingerstyle Guitar", "Acoustic Guitar", "Guitar Arrangements"]
+        }
+      ]
+    })} />
+  </Fragment>
+</BaseLayout>
+
+<style>
+  /* Hero */
+  .hero {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-light);
+    padding: 4rem 0;
+  }
+
+  .hero-inner {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .hero-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--color-accent);
+    margin-bottom: 1rem;
+  }
+
+  .hero-title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    line-height: 0.95;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 420px;
+    margin-bottom: 2rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-video {
+    width: 100%;
+  }
+
+  .hero-video-title {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+  }
+
+  /* About */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .about-label h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    position: sticky;
+    top: calc(var(--header-height) + 2rem);
+  }
+
+  .about-content p {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: var(--color-text-muted);
+  }
+
+  .about-content .btn {
+    margin-top: 1rem;
+  }
+
+  /* Featured */
+  .featured-section {
+    background-color: var(--color-bg-muted);
+  }
+
+  .section-cta {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  /* CTA Banner */
+  .cta-banner {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-light);
+    padding: var(--section-padding) 0;
+  }
+
+  .cta-inner {
+    text-align: center;
+    max-width: 700px;
+  }
+
+  .cta-inner h2 {
+    margin-bottom: 1rem;
+  }
+
+  .cta-inner p {
+    font-size: 1.0625rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2rem;
+  }
+
+  .cta-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 768px) {
+    .hero-inner {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+
+    .hero {
+      padding: 3rem 0;
+    }
+
+    .about-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .about-label h2 {
+      position: static;
+    }
+  }
+</style>

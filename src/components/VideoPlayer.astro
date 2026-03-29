@@ -1,0 +1,27 @@
+---
+import { YouTube } from '@astro-community/astro-embed-youtube';
+
+interface Props {
+  youtubeId: string;
+  title: string;
+}
+
+const { youtubeId, title } = Astro.props;
+---
+
+<div class="video-player">
+  <YouTube id={youtubeId} title={title} />
+</div>
+
+<style>
+  .video-player {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: var(--color-bg-dark);
+  }
+
+  .video-player :global(lite-youtube) {
+    width: 100%;
+    max-width: 100%;
+  }
+</style>
