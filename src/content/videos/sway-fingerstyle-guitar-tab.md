@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Sway by Bic Runga captures the delicate beauty of one of the most iconic indie songs of the late 90s. The gentle melody and understated harmony translate perfectly to solo fingerstyle guitar.
 
-**Tuning:** Standard (EADGBE)
-
-The Sway guitar tab is available above — learn to play this Bic Runga classic on solo guitar.
+If you want to learn this arrangement, [download the Sway guitar tab](https://mymusic5.com/jordanhilariofingerstyle/40540) — it covers every note in the video so you can play it exactly as you hear it.

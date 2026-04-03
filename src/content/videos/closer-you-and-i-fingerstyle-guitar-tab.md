@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Closer You and I by Gino Padilla is one of the most requested OPM covers. The romantic melody carries beautifully over fingerpicked chords, capturing the emotion that made this song a classic.
 
-**Tuning:** Standard (EADGBE)
-
-The Closer You and I guitar tab is available above — every note from the video, laid out so you can learn it at your own pace.
+If you want to learn this arrangement, [download the Closer You and I guitar tab](https://mymusic5.com/jordanhilariofingerstyle/22843) — it covers every note in the video so you can play it exactly as you hear it.

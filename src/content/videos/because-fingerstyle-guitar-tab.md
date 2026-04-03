@@ -12,6 +12,4 @@ featured: false
 
 A heartfelt fingerstyle guitar arrangement of Because by Julian Lennon. The gentle melody and emotional chord progression translate beautifully to solo acoustic guitar, keeping the intimate feel of the original.
 
-**Tuning:** Standard (EADGBE)
-
-The Because guitar tab is available above — learn to play this arrangement at your own pace.
+If you want to learn this arrangement, [download the Because guitar tab](https://mymusic5.com/jordanhilariofingerstyle/37183) — it covers every note in the video so you can play it exactly as you hear it.

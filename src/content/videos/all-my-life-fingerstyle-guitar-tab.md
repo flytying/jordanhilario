@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of All My Life by America brings the warmth of the original into a solo acoustic setting. The soft rock melody sits naturally on the guitar, with arpeggiated chords and a steady bass line carrying the song.
 
-**Tuning:** Standard (EADGBE)
-
-The All My Life guitar tab is available above if you'd like to learn this arrangement note for note.
+If you want to learn this arrangement, [download the All My Life guitar tab](https://mymusic5.com/jordanhilariofingerstyle/33808) — it covers every note in the video so you can play it exactly as you hear it.

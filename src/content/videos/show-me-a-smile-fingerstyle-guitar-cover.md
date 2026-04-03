@@ -11,6 +11,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Show Me A Smile by APO Hiking Society is a relaxing take on one of OPM's most uplifting classics. The gentle melody and optimistic feel of the original shine through in this solo acoustic arrangement.
 
-**Tuning:** Standard (EADGBE)
-
 A feel-good APO Hiking Society classic, reimagined for solo fingerstyle guitar.

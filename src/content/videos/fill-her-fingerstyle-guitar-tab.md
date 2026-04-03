@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Fill Her by Eraserheads translates one of OPM's most iconic rock tracks into a solo acoustic piece. The driving rhythm and melodic hooks of the original are all here, reimagined for fingerstyle guitar.
 
-**Tuning:** Standard (EADGBE)
-
-The Fill Her guitar tab is available above if you want to learn this Eraserheads classic on solo guitar.
+If you want to learn this arrangement, [download the Fill Her guitar tab](https://mymusic5.com/jordanhilariofingerstyle/150671) — it covers every note in the video so you can play it exactly as you hear it.

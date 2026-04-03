@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Lover's Moon by Glenn Frey captures the romantic, moonlit feel of one of the Eagles frontman's finest solo ballads. The gentle melody and lush harmonies translate beautifully to solo acoustic guitar.
 
-**Tuning:** Standard (EADGBE)
-
-The Lover's Moon guitar tab is available above — learn to play this Glenn Frey classic note for note.
+If you want to learn this arrangement, [download the Lover's Moon guitar tab](https://mymusic5.com/jordanhilariofingerstyle/22700) — it covers every note in the video so you can play it exactly as you hear it.

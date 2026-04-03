@@ -12,6 +12,4 @@ featured: true
 
 This fingerstyle guitar arrangement of If You Leave Me Now by Chicago reimagines the iconic soft rock ballad for solo acoustic guitar. Peter Cetera's unforgettable melody and the lush harmonies are all captured in this fingerstyle arrangement.
 
-**Tuning:** Standard (EADGBE)
-
-The If You Leave Me Now guitar tab is available above — learn every note of this Chicago classic.
+If you want to learn this arrangement, [download the If You Leave Me Now guitar tab](https://mymusic5.com/jordanhilariofingerstyle/33002) — it covers every note in the video so you can play it exactly as you hear it.

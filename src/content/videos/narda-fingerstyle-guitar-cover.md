@@ -11,6 +11,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Narda by Kamikazee transforms one of OPM's most popular rock ballads into a solo acoustic piece. The iconic melody and emotional build of the song are all captured on one guitar.
 
-**Tuning:** Standard (EADGBE)
-
 A beloved Kamikazee classic reimagined for solo fingerstyle guitar.

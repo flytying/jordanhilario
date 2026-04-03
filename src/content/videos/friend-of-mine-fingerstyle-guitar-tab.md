@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Friend of Mine by Odette Quesada is a tribute to one of OPM's most touching ballads. The gentle melody and emotional chord changes make it a beautiful piece for solo acoustic guitar.
 
-**Tuning:** Standard (EADGBE)
-
-The Friend of Mine guitar tab is available above — learn to play this OPM classic at your own pace.
+If you want to learn this arrangement, [download the Friend of Mine guitar tab](https://mymusic5.com/jordanhilariofingerstyle/150673) — it covers every note in the video so you can play it exactly as you hear it.

@@ -11,6 +11,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Tell Me by Joey Albert captures the emotional depth of one of OPM's most iconic love songs. Joey Albert's powerful melody is carried on solo acoustic guitar, with fingerpicked harmonies supporting every phrase.
 
-**Tuning:** Standard (EADGBE)
-
 A timeless OPM ballad reimagined for solo fingerstyle guitar.

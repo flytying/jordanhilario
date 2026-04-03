@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of If by Bread captures the tender simplicity of one of the greatest love songs ever written. David Gates' melody flows naturally on solo acoustic guitar, supported by warm bass movement and gentle harmonies.
 
-**Tuning:** Standard (EADGBE)
-
-The If guitar tab is available above — learn to play this Bread classic on fingerstyle guitar.
+If you want to learn this arrangement, [download the If guitar tab](https://mymusic5.com/jordanhilariofingerstyle/22681) — it covers every note in the video so you can play it exactly as you hear it.

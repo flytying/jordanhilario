@@ -11,6 +11,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Tamis Ng Unang Halik by Tina Paner brings back the nostalgic warmth of classic Manila Sound. The sweet melody and cheerful rhythm of the original come alive on solo acoustic guitar.
 
-**Tuning:** Standard (EADGBE)
-
 A Manila Sound gem reimagined for solo fingerstyle guitar.

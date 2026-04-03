@@ -11,6 +11,4 @@ featured: false
 
 This fingerstyle guitar arrangement of You by Basil Valdez is a tribute to one of OPM's most timeless love songs. The elegant melody and warm harmonies make it a beautiful piece for solo acoustic guitar.
 
-**Tuning:** Standard (EADGBE)
-
 A Basil Valdez classic that every OPM fan knows, reimagined for solo fingerstyle guitar.

@@ -12,6 +12,4 @@ featured: true
 
 This fingerstyle guitar arrangement of Dance With Me by Orleans captures the smooth, laid-back feel of the original in a solo acoustic setting. The melody floats over gentle bass movement, making it one of those pieces that sounds beautiful even at a slow tempo.
 
-**Tuning:** Standard (EADGBE)
-
-If you want to learn this arrangement, the Dance With Me guitar tab is available above — it covers every note in the video so you can play it exactly as you hear it.
+If you want to learn this arrangement, [download the Dance With Me guitar tab](https://mymusic5.com/jordanhilariofingerstyle/23399) — it covers every note in the video so you can play it exactly as you hear it.

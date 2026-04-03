@@ -12,6 +12,4 @@ featured: true
 
 This fingerstyle guitar arrangement of Here Comes The Sun by The Beatles is one of the most recognizable guitar songs ever written. The opening riff, the melodic verses, and the rhythmic shifts are all captured in this solo acoustic arrangement.
 
-**Tuning:** Standard (EADGBE)
-
-The Here Comes The Sun guitar tab is available above — learn George Harrison's classic on fingerstyle guitar.
+If you want to learn this arrangement, [download the Here Comes The Sun guitar tab](https://mymusic5.com/jordanhilariofingerstyle/22798) — it covers every note in the video so you can play it exactly as you hear it.

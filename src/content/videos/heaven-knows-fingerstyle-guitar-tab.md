@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Heaven Knows by Rick Price captures the emotional sweep of one of the most popular 90s ballads. The soaring melody works beautifully on solo acoustic guitar, with fingerpicked arpeggios supporting every phrase.
 
-**Tuning:** Standard (EADGBE)
-
-The Heaven Knows guitar tab is available above — every note laid out so you can learn this arrangement.
+If you want to learn this arrangement, [download the Heaven Knows guitar tab](https://mymusic5.com/jordanhilariofingerstyle/25043) — it covers every note in the video so you can play it exactly as you hear it.

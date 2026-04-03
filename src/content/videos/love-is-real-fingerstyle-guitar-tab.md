@@ -12,6 +12,4 @@ featured: true
 
 This fingerstyle guitar arrangement of Love is Real by John Lennon brings a lesser-known but deeply beautiful Lennon track to solo acoustic guitar. The simple, heartfelt melody and warm chord progressions make it a rewarding piece to play.
 
-**Tuning:** Standard (EADGBE)
-
-The Love is Real guitar tab is available above — learn to play this John Lennon gem on fingerstyle guitar.
+If you want to learn this arrangement, [download the Love is Real guitar tab](https://mymusic5.com/jordanhilariofingerstyle/32373) — it covers every note in the video so you can play it exactly as you hear it.

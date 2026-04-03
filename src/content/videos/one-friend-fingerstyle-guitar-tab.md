@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of One Friend by Dan Seals captures the heartfelt sentiment of one of country music's most touching songs about friendship. The simple, honest melody works perfectly on solo acoustic guitar.
 
-**Tuning:** Standard (EADGBE)
-
-The One Friend guitar tab is available above — learn to play this Dan Seals classic on fingerstyle guitar.
+If you want to learn this arrangement, [download the One Friend guitar tab](https://mymusic5.com/jordanhilariofingerstyle/127091) — it covers every note in the video so you can play it exactly as you hear it.

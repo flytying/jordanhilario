@@ -11,6 +11,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Pers Lab by Hotdog is the ultimate Manila Sound track reimagined for solo acoustic guitar. The funky rhythm and catchy melody of the original are all captured in this fingerstyle arrangement.
 
-**Tuning:** Standard (EADGBE)
-
 A Manila Sound classic that proves OPM grooves work beautifully on fingerstyle guitar.

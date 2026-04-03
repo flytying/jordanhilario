@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Muntik Nang Maabot Ang Langit by True Faith is one of the most emotional OPM ballads ever written. The soaring melody and heartfelt lyrics are captured in this solo acoustic arrangement.
 
-**Tuning:** Standard (EADGBE)
-
-The Muntik Nang Maabot Ang Langit guitar tab is available above — learn to play this True Faith classic on solo guitar.
+If you want to learn this arrangement, [download the Muntik Nang Maabot Ang Langit guitar tab](https://mymusic5.com/jordanhilariofingerstyle/151034) — it covers every note in the video so you can play it exactly as you hear it.

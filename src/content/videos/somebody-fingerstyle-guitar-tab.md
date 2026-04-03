@@ -12,6 +12,4 @@ featured: true
 
 This fingerstyle guitar arrangement of Somebody by Depeche Mode strips away the synths and reimagines Martin Gore's vulnerable ballad on solo acoustic guitar. The raw emotion of the original comes through even more in this intimate acoustic setting.
 
-**Tuning:** Standard (EADGBE)
-
-The Somebody guitar tab is available above — learn to play this Depeche Mode classic on fingerstyle guitar.
+If you want to learn this arrangement, [download the Somebody guitar tab](https://mymusic5.com/jordanhilariofingerstyle/34756) — it covers every note in the video so you can play it exactly as you hear it.

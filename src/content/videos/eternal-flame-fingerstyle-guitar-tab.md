@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Eternal Flame by The Bangles brings the warmth of the original 80s ballad into a solo acoustic setting. The melody is instantly recognizable and sits beautifully on the guitar.
 
-**Tuning:** Standard (EADGBE)
-
-The Eternal Flame guitar tab is available above — learn to play this timeless love song on solo guitar.
+If you want to learn this arrangement, [download the Eternal Flame guitar tab](https://mymusic5.com/jordanhilariofingerstyle/23917) — it covers every note in the video so you can play it exactly as you hear it.

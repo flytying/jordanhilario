@@ -11,6 +11,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Ikaw Ang Miss Universe Ng Buhay Ko by Hotdog brings the fun, upbeat energy of Manila Sound into a solo acoustic setting. The catchy melody and rhythmic groove of the original are all here, reimagined for fingerstyle guitar.
 
-**Tuning:** Standard (EADGBE)
-
 A fun OPM classic that proves Manila Sound works beautifully on solo guitar.

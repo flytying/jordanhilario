@@ -11,6 +11,4 @@ featured: false
 
 This fingerstyle guitar arrangement of I Will by The Beatles takes a unique approach, using airtap and tapping technique to bring out the melody and rhythm in a way you might not expect. It's a fresh take on one of The Beatles' most tender love songs.
 
-**Tuning:** Standard (EADGBE)
-
 A Beatles classic reimagined with an unconventional fingerstyle approach.

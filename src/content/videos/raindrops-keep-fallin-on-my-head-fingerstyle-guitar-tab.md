@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of Raindrops Keep Fallin' on My Head brings the cheerful, carefree spirit of the Oscar-winning classic into a solo acoustic setting. The whistleable melody and upbeat feel make it a joy to play.
 
-**Tuning:** Standard (EADGBE)
-
-The Raindrops Keep Fallin' on My Head guitar tab is available above — learn to play this feel-good classic on solo guitar.
+If you want to learn this arrangement, [download the Raindrops Keep Fallin' on My Head guitar tab](https://mymusic5.com/jordanhilariofingerstyle/31517) — it covers every note in the video so you can play it exactly as you hear it.

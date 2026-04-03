@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of It Might Be You by Stephen Bishop captures the romantic warmth of the classic love ballad from the movie Tootsie. The melody is timeless and translates perfectly to solo acoustic guitar.
 
-**Tuning:** Standard (EADGBE)
-
-The It Might Be You guitar tab is available above — learn to play this beautiful ballad on fingerstyle guitar.
+If you want to learn this arrangement, [download the It Might Be You guitar tab](https://mymusic5.com/jordanhilariofingerstyle/152709) — it covers every note in the video so you can play it exactly as you hear it.

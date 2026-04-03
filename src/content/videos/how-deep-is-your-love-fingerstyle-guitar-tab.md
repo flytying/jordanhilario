@@ -12,6 +12,4 @@ featured: false
 
 This fingerstyle guitar arrangement of How Deep Is Your Love by Bee Gees translates one of the most beautiful melodies in pop music into a solo acoustic piece. The smooth chord movement and iconic melody line work naturally on fingerstyle guitar.
 
-**Tuning:** Standard (EADGBE)
-
-The How Deep Is Your Love guitar tab is available above — learn to play this Bee Gees classic on solo guitar.
+If you want to learn this arrangement, [download the How Deep Is Your Love guitar tab](https://mymusic5.com/jordanhilariofingerstyle/39240) — it covers every note in the video so you can play it exactly as you hear it.
