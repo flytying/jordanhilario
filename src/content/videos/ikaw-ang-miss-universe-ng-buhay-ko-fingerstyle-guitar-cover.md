@@ -4,9 +4,13 @@ songTitle: "Ikaw Ang Miss Universe Ng Buhay Ko"
 artist: "Hotdog"
 youtubeId: "sJgxKhIc8nU"
 publishDate: 2024-11-01
-description: "Fingerstyle guitar cover of Ikaw Ang Miss Universe Ng Buhay Ko by Hotdog. Manila Sound classic arranged for solo acoustic guitar."
+description: "Ikaw Ang Miss Universe Ng Buhay Ko by Hotdog — fingerstyle guitar cover. A Manila Sound classic arranged for solo acoustic guitar with melody, chords, and bass."
 tags: ["opm", "manila sound"]
 featured: false
 ---
 
-A fun fingerstyle arrangement of this Manila Sound classic by Hotdog.
+This fingerstyle guitar arrangement of Ikaw Ang Miss Universe Ng Buhay Ko by Hotdog brings the fun, upbeat energy of Manila Sound into a solo acoustic setting. The catchy melody and rhythmic groove of the original are all here, reimagined for fingerstyle guitar.
+
+**Tuning:** Standard (EADGBE)
+
+A fun OPM classic that proves Manila Sound works beautifully on solo guitar.

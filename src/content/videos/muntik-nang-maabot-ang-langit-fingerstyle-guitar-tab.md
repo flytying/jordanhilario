@@ -4,10 +4,14 @@ songTitle: "Muntik Nang Maabot Ang Langit"
 artist: "True Faith"
 youtubeId: "xTxy52m0CZA"
 publishDate: 2025-01-01
-description: "Fingerstyle guitar cover of Muntik Nang Maabot Ang Langit by True Faith. Classic OPM love song arranged for solo acoustic guitar with tabs."
+description: "Muntik Nang Maabot Ang Langit by True Faith — fingerstyle guitar cover with tab. Download the guitar tablature for this classic OPM love song arranged for solo acoustic guitar."
 tags: ["opm", "ballad"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/151034"
 featured: false
 ---
 
-A heartfelt OPM fingerstyle arrangement of this True Faith classic.
+This fingerstyle guitar arrangement of Muntik Nang Maabot Ang Langit by True Faith is one of the most emotional OPM ballads ever written. The soaring melody and heartfelt lyrics are captured in this solo acoustic arrangement.
+
+**Tuning:** Standard (EADGBE)
+
+The Muntik Nang Maabot Ang Langit guitar tab is available above — learn to play this True Faith classic on solo guitar.

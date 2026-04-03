@@ -4,10 +4,14 @@ songTitle: "Heaven Knows"
 artist: "Rick Price"
 youtubeId: "poXYz2sQXo0"
 publishDate: 2024-04-01
-description: "Fingerstyle guitar cover of Heaven Knows by Rick Price with tabs. A beloved 90s ballad arranged for solo acoustic guitar."
+description: "Heaven Knows by Rick Price — fingerstyle guitar cover with tab. Download the guitar tablature for this beloved 90s ballad arranged for solo acoustic guitar."
 tags: ["pop", "ballad"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/25043"
 featured: false
 ---
 
-A beautiful fingerstyle arrangement of Rick Price's beloved 90s ballad.
+This fingerstyle guitar arrangement of Heaven Knows by Rick Price captures the emotional sweep of one of the most popular 90s ballads. The soaring melody works beautifully on solo acoustic guitar, with fingerpicked arpeggios supporting every phrase.
+
+**Tuning:** Standard (EADGBE)
+
+The Heaven Knows guitar tab is available above — every note laid out so you can learn this arrangement.
