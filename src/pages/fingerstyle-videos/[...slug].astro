@@ -26,7 +26,7 @@ const relatedVideos = allVideos
     score: v.data.tags.filter((t) => tags.includes(t)).length,
   }))
   .sort((a, b) => b.score - a.score || b.video.data.publishDate.getTime() - a.video.data.publishDate.getTime())
-  .slice(0, 4)
+  .slice(0, 3)
   .map((v) => v.video);
 
 const hasTab = !!tabUrl;
