@@ -4,7 +4,7 @@ songTitle: "Lover's Moon"
 artist: "Glenn Frey"
 youtubeId: "WWNbONPOozg"
 publishDate: 2024-02-01
-description: "Lover's Moon by Glenn Frey — fingerstyle guitar cover with tab. Download the guitar tablature for this beautiful Eagles-era ballad arranged for solo acoustic guitar."
+description: "Lover's Moon by Glenn Frey — fingerstyle guitar cover with tab. Learn this beautiful ballad from the Eagles legend on solo acoustic guitar."
 tags: ["classic", "soft rock"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/22700"
 featured: false

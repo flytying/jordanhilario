@@ -4,7 +4,7 @@ songTitle: "If You Leave Me Now"
 artist: "Chicago"
 youtubeId: "F2MRpqVMAsM"
 publishDate: 2024-03-15
-description: "If You Leave Me Now by Chicago — fingerstyle guitar cover with tab. Download the guitar tablature for this classic soft rock ballad arranged for solo acoustic guitar."
+description: "If You Leave Me Now by Chicago — fingerstyle guitar cover with tab. Learn this classic soft rock ballad on solo acoustic guitar."
 tags: ["classic", "soft rock"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/33002"
 featured: true

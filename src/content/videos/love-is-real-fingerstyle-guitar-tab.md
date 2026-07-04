@@ -4,7 +4,7 @@ songTitle: "Love is Real"
 artist: "John Lennon"
 youtubeId: "dJhgfjgxW_s"
 publishDate: 2024-05-15
-description: "Love is Real by John Lennon — fingerstyle guitar cover with tab. Download the guitar tablature for this beautiful Lennon deep cut arranged for solo acoustic guitar."
+description: "Love is Real by John Lennon — fingerstyle guitar cover with tab. Learn this beautiful Lennon deep cut on solo acoustic guitar."
 tags: ["classic rock", "ballad"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/32373"
 featured: true

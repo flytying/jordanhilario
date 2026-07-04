@@ -4,7 +4,7 @@ songTitle: "Eternal Flame"
 artist: "The Bangles"
 youtubeId: "js6ePyTMFkU"
 publishDate: 2024-01-15
-description: "Eternal Flame by The Bangles — fingerstyle guitar cover with tab. Download the guitar tablature for this iconic 80s pop ballad arranged for solo acoustic guitar."
+description: "Eternal Flame by The Bangles — fingerstyle guitar cover with tab. Learn this iconic 80s pop ballad on solo acoustic guitar."
 tags: ["pop", "80s"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/23917"
 featured: false

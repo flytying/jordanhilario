@@ -77,10 +77,19 @@ const allTags = [...new Set(sortedVideos.flatMap((v) => v.data.tags))].sort();
       "@type": "CollectionPage",
       "name": "Fingerstyle Guitar Videos",
       "description": "Collection of fingerstyle guitar covers and arrangements by Jordan Hilario.",
-      "url": "https://jordanhilario.com/fingerstyle-videos",
+      "url": "https://jordanhilario.com/fingerstyle-videos/",
       "author": {
         "@type": "Person",
         "name": "Jordan Hilario"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": sortedVideos.map((video, i) => ({
+          "@type": "ListItem",
+          "position": i + 1,
+          "name": video.data.title,
+          "url": `https://jordanhilario.com/fingerstyle-videos/${video.id}/`
+        }))
       }
     })} />
   </Fragment>

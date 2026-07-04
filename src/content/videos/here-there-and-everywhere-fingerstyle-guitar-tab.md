@@ -4,7 +4,7 @@ songTitle: "Here, There and Everywhere"
 artist: "The Beatles"
 youtubeId: "gfQ50-IlvHo"
 publishDate: 2025-02-15
-description: "Here, There and Everywhere by The Beatles — fingerstyle guitar cover with tab. Download the guitar tablature for this beautiful Beatles ballad on solo acoustic guitar."
+description: "Here, There and Everywhere by The Beatles — fingerstyle guitar cover with tab. Learn this beautiful Beatles ballad on solo acoustic guitar."
 tags: ["classic rock", "beatles"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/22818"
 featured: false

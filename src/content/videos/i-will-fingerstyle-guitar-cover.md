@@ -11,4 +11,6 @@ featured: false
 
 This fingerstyle guitar arrangement of I Will by The Beatles takes a unique approach, using airtap and tapping technique to bring out the melody and rhythm in a way you might not expect. It's a fresh take on one of The Beatles' most tender love songs.
 
+I Will appeared on the White Album in 1968, a short and sweet Paul McCartney love song with a famously hummed bass line. The tapping approach in this cover adds a percussive layer the original never had — melody, harmony, and rhythm all happening at once on a single acoustic guitar.
+
 A Beatles classic reimagined with an unconventional fingerstyle approach.

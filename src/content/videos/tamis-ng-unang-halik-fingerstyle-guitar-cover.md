@@ -11,4 +11,6 @@ featured: false
 
 This fingerstyle guitar arrangement of Tamis Ng Unang Halik by Tina Paner brings back the nostalgic warmth of classic Manila Sound. The sweet melody and cheerful rhythm of the original come alive on solo acoustic guitar.
 
+Tamis Ng Unang Halik — "the sweetness of the first kiss" — is one of those OPM songs that instantly takes Filipino listeners back to a simpler time. In this arrangement the vocal melody sits on top of light, bouncing chords, with the bass line filling out the groove so the whole band fits on one guitar.
+
 A Manila Sound gem reimagined for solo fingerstyle guitar.

@@ -4,7 +4,7 @@ songTitle: "Friend of Mine"
 artist: "Odette Quesada"
 youtubeId: "stNmEtbYUqQ"
 publishDate: 2024-08-01
-description: "Friend of Mine by Odette Quesada — fingerstyle guitar cover with tab. Download the guitar tablature for this classic OPM ballad arranged for solo acoustic guitar."
+description: "Friend of Mine by Odette Quesada — fingerstyle guitar cover with tab. Learn this classic OPM ballad on solo acoustic guitar."
 tags: ["opm", "ballad"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/150673"
 featured: false

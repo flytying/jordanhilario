@@ -4,7 +4,7 @@ songTitle: "How Deep Is Your Love"
 artist: "Bee Gees"
 youtubeId: "h94nHrMyw4c"
 publishDate: 2024-10-01
-description: "How Deep Is Your Love by Bee Gees — fingerstyle guitar cover with tab. Download the guitar tablature for this timeless classic arranged for solo acoustic guitar."
+description: "How Deep Is Your Love by Bee Gees — fingerstyle guitar cover with tab. Learn this timeless classic on solo acoustic guitar."
 tags: ["classic", "pop"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/39240"
 featured: false

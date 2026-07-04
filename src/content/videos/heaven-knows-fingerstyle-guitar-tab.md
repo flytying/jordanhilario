@@ -4,7 +4,7 @@ songTitle: "Heaven Knows"
 artist: "Rick Price"
 youtubeId: "poXYz2sQXo0"
 publishDate: 2024-04-01
-description: "Heaven Knows by Rick Price — fingerstyle guitar cover with tab. Download the guitar tablature for this beloved 90s ballad arranged for solo acoustic guitar."
+description: "Heaven Knows by Rick Price — fingerstyle guitar cover with tab. Learn this beloved 90s ballad on solo acoustic guitar."
 tags: ["pop", "ballad"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/25043"
 featured: false

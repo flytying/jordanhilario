@@ -4,7 +4,7 @@ songTitle: "One Friend"
 artist: "Dan Seals"
 youtubeId: "NQfIePw5jiA"
 publishDate: 2024-11-15
-description: "One Friend by Dan Seals — fingerstyle guitar cover with tab. Download the guitar tablature for this touching country classic arranged for solo acoustic guitar."
+description: "One Friend by Dan Seals — fingerstyle guitar cover with tab. Learn this touching country classic on solo acoustic guitar."
 tags: ["country", "classic"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/127091"
 featured: false

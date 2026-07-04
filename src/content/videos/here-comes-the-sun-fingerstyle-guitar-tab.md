@@ -4,7 +4,7 @@ songTitle: "Here Comes The Sun"
 artist: "The Beatles"
 youtubeId: "Y-BS5NvwZFQ"
 publishDate: 2024-07-15
-description: "Here Comes The Sun by The Beatles — fingerstyle guitar cover with tab. Download the guitar tablature for this iconic Beatles classic arranged for solo acoustic guitar."
+description: "Here Comes The Sun by The Beatles — fingerstyle guitar cover with tab. Learn this iconic Beatles classic on solo acoustic guitar."
 tags: ["classic rock", "beatles"]
 tabUrl: "https://mymusic5.com/jordanhilariofingerstyle/22798"
 featured: true
